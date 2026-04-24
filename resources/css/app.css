@@ -1,0 +1,18 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+/* Assure que le body prend toute la hauteur de l'écran */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Le contenu principal (main) prend tout l'espace disponible */
+main {
+    flex: 1;
+}
+
+/* Effet de surbrillance sur les liens de la navbar */
+.nav-link:hover {
+    color: #0dcaf0 !important; /* Couleur info de Bootstrap */
+    transition: 0.3s ease;
+}
